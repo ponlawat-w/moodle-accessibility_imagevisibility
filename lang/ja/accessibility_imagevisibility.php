@@ -15,20 +15,13 @@
 // along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
 
 /**
- * Plugin version and other meta-data are defined here.
+ * Language strings
  *
  * @package     accessibility_imagevisibility
- * @copyright   2024 Ponlawat Weerapanpisit <ponlawat_w@outlook.co.th>
+ * @copyright   2023 Ponlawat Weerapanpisit <ponlawat_w@outlook.co.th>
  * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-defined('MOODLE_INTERNAL') || die();
-
-$plugin->component = 'accessibility_imagevisibility';
-$plugin->release = '1.0.1';
-$plugin->version = 2025012900;
-$plugin->requires = 2022041900;
-$plugin->maturity = MATURITY_STABLE;
-$plugin->dependencies = [
-    'local_accessibility' => 2024082401,
-];
+$string['hideimages'] = '画像を非表示';
+$string['pluginname'] = '画像の可視性';
+$string['showimages'] = '画像を表示';
