@@ -23,3 +23,6 @@ along with Moodle.  If not, see <https://www.gnu.org/licenses/>. */
 body.accessibility-imagevisibility-enabled img:not(.colourdialogue) {
     visibility: hidden !important;
 }
+body.accessibility-imagevisibility-enabled * {
+	background-image: unset !important;
+}
