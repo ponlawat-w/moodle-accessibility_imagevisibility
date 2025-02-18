@@ -25,8 +25,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'accessibility_imagevisibility';
-$plugin->release = '1.0.2';
-$plugin->version = 2025020100;
+$plugin->release = '1.0.3';
+$plugin->version = 2025021800;
 $plugin->requires = 2022041900;
 $plugin->maturity = MATURITY_STABLE;
 $plugin->dependencies = [
